@@ -1,0 +1,10 @@
+check,count,detail
+rows,1987,Provider-month rows after TOTAL rows are excluded
+columns,22,Columns in the tidy table
+missing_cells,0,Missing cells; not imputed
+exact_duplicate_rows,0,Exact duplicate rows; not removed automatically
+duplicate_org_month,0,Must be zero; loader raises if non-zero
+negative_numeric_cells,0,Count-like numeric fields should be reviewed if negative
+nonpositive_type1_denominator,777,Rows excluded from Type 1 performance calculation
+over4_exceeds_denominator,0,Potential definition/data issue; review against source
+months_present,10,"2025-05, 2025-06, 2025-07, 2025-09, 2025-10, 2025-11, 2025-12, 2026-01, 2026-02, 2026-03"
