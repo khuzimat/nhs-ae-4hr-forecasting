@@ -86,6 +86,6 @@ Trusts observed in the same target month share national conditions. Therefore, h
 4. Compare with additional simple baselines before adding model complexity.
 5. If predicting threshold breaches, define the threshold and evaluate calibration, sensitivity, specificity and the cost of false alarms.
 
-## Interview explanation
+## Project summary
 
 “I built a reproducible Python pipeline using published NHS A&E data. I checked data quality, engineered provider-level features, compared three regression models with simple baselines, and used expanding-window validation to avoid training on future months. The key result is whether added model complexity beats persistence—not whether an ML model can be made to run. The main limitation is the short, gappy time series, so the next step is broader historical validation and a realistic publication-time forecast design.”
