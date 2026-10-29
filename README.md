@@ -89,3 +89,19 @@ Trusts observed in the same target month share national conditions. Therefore, h
 ## Project summary
 
 “I built a reproducible Python pipeline using published NHS A&E data. I checked data quality, engineered provider-level features, compared three regression models with simple baselines, and used expanding-window validation to avoid training on future months. The key result is whether added model complexity beats persistence—not whether an ML model can be made to run. The main limitation is the short, gappy time series, so the next step is broader historical validation and a realistic publication-time forecast design.”
+## Results visualisation
+
+The following charts summarise model performance, prediction accuracy and how forecast errors vary across months.
+
+### 1. Model comparison
+
+![Model comparison](outputs/model_comparison.png)
+
+### 2. Predicted versus actual performance
+
+![Predicted versus actual performance](outputs/predicted_vs_actual.png)
+
+### 3. Forecast error by month
+
+![Forecast error by month](outputs/error_by_month.png)
+
